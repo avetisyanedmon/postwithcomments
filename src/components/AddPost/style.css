@@ -1,0 +1,27 @@
+.list_content {
+  width: 40%;
+  min-width: 500px;
+  margin: 15px;
+  background-color: rgb(98, 192, 255);
+  border: 2px solid rgb(145, 145, 145);
+  border-radius: 3px;
+}
+.buttons_box {
+  display: flex;
+}
+.buttons_box div {
+  width: 50%;
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-end;
+}
+.add_btn {
+  font-size: 22px;
+  margin-right: 5px;
+}
+.added_box {
+  width: 90%;
+  margin: 10px auto;
+  padding: 15px;
+  background: rgb(231, 231, 231);
+}

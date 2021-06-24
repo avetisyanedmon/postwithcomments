@@ -1,0 +1,30 @@
+.content {
+  width: 40%;
+  margin: 15px;
+  background-color: rgb(98, 192, 255);
+  border: 2px solid rgb(145, 145, 145);
+  border-radius: 3px;
+}
+.posts_box {
+  width: 100%;
+}
+.post_text {
+  background-color: rgb(231, 231, 231);
+  padding: 10px;
+}
+.item_box {
+  padding: 15px;
+  margin: 15px;
+  border: 1px solid rgb(41, 41, 41);
+  border-radius: 3px;
+}
+.comment_item_box {
+  width: 85%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid rgb(41, 41, 41);
+  background-color: rgb(240, 240, 240);
+}
+.comment_text_box {
+  margin-left: 20px;
+}
