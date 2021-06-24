@@ -33,6 +33,11 @@ function AddPost({ posts }) {
     }
 
 
+    const onDelete = (id) => {
+        setAddedPosts((state) => {
+           return state.filter((p) => p.id !== id)
+        })
+    }
 
 
     return (
@@ -57,6 +62,7 @@ function AddPost({ posts }) {
                 return (
                     <div key={index} className='added_box'>
                         <div>
+                            <button onClick={() => onDelete(post.id)}>&times;</button>
                             {post.post}
                         </div> 
                         <div>
